@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Villagers to Companions: The Evolution of NPCs in Minecraft</title>
+    <meta name="description" content="Explore how Minecraft NPCs evolved from simple villagers into intelligent companions, transforming gameplay, immersion, and storytelling.">
+    <link rel="canonical" href="https://example.com/evolution-of-npcs-minecraft">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://example.com/evolution-of-npcs-minecraft">
+    <meta property="og:title" content="From Villagers to Companions: The Evolution of NPCs in Minecraft">
+    <meta property="og:description" content="A documentary-style look at the transformation of Minecraft's living world.">
+    <meta property="og:image" content="https://example.com/images/npc-evolution.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://example.com/evolution-of-npcs-minecraft">
+    <meta property="twitter:title" content="The Evolution of NPCs in Minecraft">
+    <meta property="twitter:description" content="From static traders to intelligent companions.">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "From Villagers to Companions: The Evolution of NPCs in Minecraft",
+        "description": "Explore how Minecraft NPCs evolved from simple villagers into intelligent companions, transforming gameplay, immersion, and storytelling.",
+        "author": {
+            "@type": "Organization",
+            "name": "Voxel Nature Geographic"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Digital Evolution Institute",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://example.com/logo.png"
+            }
+        },
+        "datePublished": "2026-12-26",
+        "dateModified": "2026-12-26",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://example.com/evolution-of-npcs-minecraft"
+        }
+    }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --sky: #0ea5e9;
+            --leaf: #22c55e;
+            --sun: #facc15;
+            --river: #38bdf8;
+            --coral: #fb7185;
+            --forest: #064e3b;
+            --earth: #3f2d20;
+            --mist: rgba(255, 255, 255, 0.9);
+            --text-dark: #1a2e1a;
+            --text-light: #f1f5f9;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--mist);
+            color: var(--text-dark);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* --- 1. HERO SECTION (.search-header) --- */
+        .search-header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(to bottom, var(--sky), var(--leaf), var(--forest));
+            position: relative;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .cloud {
+            position: absolute;
+            background: #fff;
+            filter: blur(50px);
+            border-radius: 50%;
+            opacity: 0.3;
+            animation: drift 20s infinite linear;
+        }
+
+        @keyframes drift {
+            from { transform: translateX(-100vw); }
+            to { transform: translateX(100vw); }
+        }
+
+        .main-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 8vw, 5.5rem);
+            font-weight: 700;
+            max-width: 1000px;
+            z-index: 2;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+
+        .hero-sub {
+            font-weight: 200;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            font-size: 1rem;
+            z-index: 2;
+            opacity: 0.8;
+        }
+
+        /* --- 2. RESEARCH PROCESS (Origins & Evolution Path) --- */
+        .research-process {
+            padding: 0;
+        }
+
+        .museum-section {
+            padding: 10rem 2rem;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .museum-frame {
+            max-width: 800px;
+            padding: 4rem;
+            background: #fdfdfd;
+            border: 1px solid #eee;
+            box-shadow: 0 40px 100px rgba(0,0,0,0.05);
+            position: relative;
+        }
+
+        .museum-frame h2 { font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 2rem; color: var(--forest); }
+
+        .biome-path {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .biome-stage {
+            padding: 15rem 2rem;
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .stage-content {
+            background: var(--mist);
+            padding: 4rem;
+            max-width: 700px;
+            backdrop-filter: blur(10px);
+            border-left: 5px solid var(--sun);
+        }
+
+        .grassland { background: linear-gradient(rgba(34, 197, 94, 0.2), rgba(34, 197, 94, 0.2)), url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=2000'); }
+        .village { background: linear-gradient(rgba(63, 45, 32, 0.3), rgba(63, 45, 32, 0.3)), url('https://images.unsplash.com/photo-1505833115364-e28c49cb3526?auto=format&fit=crop&q=80&w=2000'); color: var(--text-light); }
+        .village .stage-content { background: rgba(0,0,0,0.7); border-color: var(--coral); }
+
+        /* --- 3. RESEARCH DASHBOARD (Companion Depth - Circular) --- */
+        .research-dashboard {
+            padding: 10rem 2rem;
+            background: var(--forest);
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+
+        .orbit-container {
+            width: 600px;
+            height: 600px;
+            margin: 0 auto;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .core-life {
+            width: 150px;
+            height: 150px;
+            background: var(--sun);
+            border-radius: 50%;
+            box-shadow: 0 0 50px var(--sun);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: #000;
+            z-index: 5;
+        }
+
+        .orbit-card {
+            position: absolute;
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 15px;
+            width: 150px;
+            border: 1px solid rgba(255,255,255,0.2);
+            animation: orbitFloat 6s infinite ease-in-out;
+        }
+
+        @keyframes orbitFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
+
+        /* --- 4. COMPARISON SECTION (World Interaction) --- */
+        .comparison-section {
+            padding: 10rem 2rem;
+            background: #fff;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .infographic {
+            padding: 3rem;
+            border-bottom: 2px solid var(--forest);
+        }
+
+        .infographic h3 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 1.5rem; }
+
+        .anchor-link {
+            color: var(--forest);
+            text-decoration: none;
+            font-weight: 700;
+            border-bottom: 2px solid var(--sun);
+        }
+
+        /* --- 5. CONCLUSION (Final Chapter) --- */
+        .conclusion {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(to top, var(--earth), #fb923c, var(--forest));
+            color: #fff;
+            padding: 2rem;
+        }
+
+        .conclusion-text {
+            max-width: 800px;
+            font-size: 1.5rem;
+            font-weight: 200;
+            font-style: italic;
+        }
+
+        .btn-minimal {
+            margin-top: 3rem;
+            padding: 1rem 3rem;
+            border: 1px solid #fff;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            transition: 0.3s;
+        }
+
+        .btn-minimal:hover { background: #fff; color: #000; }
+
+        /* --- 6. FOOTER --- */
+        .footer {
+            padding: 5rem 2rem;
+            background: var(--earth);
+            color: rgba(255,255,255,0.4);
+            text-align: center;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 900px) {
+            .comparison-section { grid-template-columns: 1fr; }
+            .orbit-container { width: 100%; height: auto; display: block; }
+            .orbit-card { position: static; width: 100%; margin-bottom: 1rem; }
+            .stage-content { padding: 2rem; }
+            .main-title { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. HERO SECTION -->
+    <header class="search-header">
+        <div class="cloud" style="top: 10%; width: 300px; height: 100px;"></div>
+        <div class="cloud" style="top: 30%; width: 400px; height: 150px; animation-delay: -5s;"></div>
+        <h1 class="main-title">A World Begins to Live</h1>
+        <p class="hero-sub">The Evolution of Minecraft NPCs</p>
+    </header>
+
+    <!-- 2. RESEARCH PROCESS -->
+    <main class="research-process">
+        <!-- Origins -->
+        <section class="museum-section">
+            <div class="museum-frame">
+                <h2>The Age of Villagers</h2>
+                <p>When Minecraft first launched, its world felt vast but quiet. Non-player characters existed mainly as background elements, most notably villagers who traded items and wandered predefined paths. They added life to settlements, yet their role was limited. Over the years, however, NPCs have undergone a remarkable transformation. Today, they are becoming companions, guides, and narrative drivers that reshape how players experience the game.</p>
+            </div>
+        </section>
+
+        <!-- Biome Path -->
+        <div class="biome-path">
+            <section class="biome-stage grassland">
+                <div class="stage-content">
+                    <h3 style="font-size: 2rem; margin-bottom: 1rem;">The Functional Era</h3>
+                    <p>Early NPCs were functional rather than emotional. Villagers offered trades, iron golems defended towns, and wandering traders appeared briefly before disappearing again. Interaction was shallow and predictable. These characters existed to support survival mechanics, not to build connection. Players rarely formed attachments because NPCs themselves lacked memory and individuality.</p>
+                </div>
+            </section>
+
+            <section class="biome-stage village">
+                <div class="stage-content">
+                    <h3 style="font-size: 2rem; margin-bottom: 1rem;">Community Driven Shift</h3>
+                    <p>The first major shift came with community-driven modifications. creators began experimenting with dialogue systems, custom behaviors, and unique character roles. Instead of repeating routines, NPCs could follow players, assist in combat, or react to events. This demonstrated how emotionally driven companions like <strong><a href="https://jennymod.mx/" class="anchor-link" style="color: var(--sun);">Jenny mod</a></strong> could naturally fit inside Minecraft’s sandbox design.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 3. RESEARCH DASHBOARD -->
+    <section class="research-dashboard">
+        <h2 style="font-family: 'Playfair Display'; font-size: 3rem; margin-bottom: 4rem;">Companion Depth</h2>
+        <div class="orbit-container">
+            <div class="core-life">CORE</div>
+            <div class="orbit-card" style="top: 0; left: 50%; transform: translateX(-50%);">
+                <strong>MEMORY</strong>
+                <p style="font-size: 0.8rem; margin-top: 5px;">Acknowledge past choices and events.</p>
+            </div>
+            <div class="orbit-card" style="bottom: 0; left: 50%; transform: translateX(-50%);">
+                <strong>GROWTH</strong>
+                <p style="font-size: 0.8rem; margin-top: 5px;">Evolving interaction over time.</p>
+            </div>
+            <div class="orbit-card" style="top: 50%; left: 0; transform: translateY(-50%);">
+                <strong>EMOTION</strong>
+                <p style="font-size: 0.8rem; margin-top: 5px;">Responsive feelings and perceptions.</p>
+            </div>
+            <div class="orbit-card" style="top: 50%; right: 0; transform: translateY(-50%);">
+                <strong>LOYALTY</strong>
+                <p style="font-size: 0.8rem; margin-top: 5px;">Systems of trust and affinity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. COMPARISON SECTION -->
+    <section class="comparison-section">
+        <div class="infographic">
+            <h3>Environmental Weight</h3>
+            <p>Characters became tied to locations, cultures, or hidden regions. Meeting certain NPCs required exploration or major milestones. This gave weight to discovery. Finding a character was no longer incidental; it became a reward, hinting at a broader world beyond blocks.</p>
+        </div>
+        <div class="infographic">
+            <h3>Situational Logic</h3>
+            <p>Companions could support players in battle, warn of dangers, or adapt to situations. Enemies powered by smarter logic reacted situational rather than scripted. This added tension and strategy, reinforcing the sense that the world was active and responsive.</p>
+        </div>
+    </section>
+
+    <section style="padding: 10rem 2rem; background: #fafafa; text-align: center;">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h3 style="font-family: 'Playfair Display'; font-size: 2.5rem; margin-bottom: 2rem;">Not Just Villagers Anymore</h3>
+            <p style="font-size: 1.2rem; color: #555;">Dialogue matured with branching conversations and long-term memory. Minecraft sessions were no longer only about what was built, but about who was met and what relationships developed along the way. Characters are becoming persistent presences that shape engagement.</p>
+        </div>
+    </section>
+
+    <!-- 5. CONCLUSION -->
+    <section class="conclusion">
+        <h2 class="main-title" style="color: var(--sun);">A Living Minecraft World</h2>
+        <div class="conclusion-text">
+            <p>What began as a creative survival sandbox is steadily becoming a platform for living worlds. As companions replace villagers as the heart of interaction, stories emerge not just from imagination, but from connection.</p>
+        </div>
+        <a href="#" class="btn-minimal">Build Living Worlds</a>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 VOXEL NATURE GEOGRAPHIC // EVOLUTION OF NPCS IN MINECRAFT // DOCUMENTARY ARCHIVE</p>
+    </footer>
+
+</body>
+</html>
